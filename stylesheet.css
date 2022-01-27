@@ -1,0 +1,29 @@
+body{color: rgb(255, 255, 255);
+
+}
+
+.header { 
+    height: 75x;
+    width: 75%;
+    background-color: #004175;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 100px; 
+    border-bottom: 5px solid #89DEEF;
+    font-family: Open sans;
+    font-size: medium;
+
+}    
+.opener {
+    height: 100px;
+    color: black;
+    font-size: 40px;
+    font-family: Oswald;
+    font-weight: 200;
+    
+
+}
+.descriptions {
+    color: black
+}
