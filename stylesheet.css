@@ -10,20 +10,90 @@ body{color: rgb(255, 255, 255);
     padding-right: 0px;
     padding-bottom: 50px;
     padding-left: 100px; 
+    margin-top: -40px;
     border-bottom: 5px solid #89DEEF;
-    font-family: Open sans;
-    font-size: medium;
+    font-family: 'Open Sans';
+    font-size: large;
 
 }    
+h3{
+    color:rgb(0, 0, 0)
+
+}
+
+h2 {
+    color:rgb(0, 0, 0)
+}
 .opener {
     height: 100px;
     color: black;
     font-size: 40px;
-    font-family: Oswald;
+    font-family: 'Oswald';
     font-weight: 200;
-    
+    font-size: small;
 
 }
-.descriptions {
+.dog-pic {
+    display: flex;
+    justify-content: space-around;
+    align-content:flex-end;
+    flex-direction:row;
+    max-height:20%;
+    border-style: solid;
+    border-color: rgb(156, 144, 235);
+
     color: black
 }
+
+.dog-grid {
+    display:flex;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center;
+    border-style:solid;
+    border-color:darkred
+
+}
+img{
+    display:flex;
+    max-width: 20%;
+    max-height: 20%;
+    border-style: solid;
+    border-color:rgb(42, 255, 42)
+}
+
+ul{
+    display: flex;
+    justify-content:center;
+    border-style: double;
+    border-color: cyan ;
+}
+
+li{
+    display:flex;
+    background-color: blue;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20px;
+    width:min-content;
+
+    
+
+
+}
+body{
+
+}
+.first{
+    border-style: solid;
+    border-color: rgb(241, 73, 205);
+}
+.second{
+    border-color: deepskyblue;
+    border-style: solid;
+}
+.third{
+    border-color: blue;
+    border-style:solid;
+}
+
