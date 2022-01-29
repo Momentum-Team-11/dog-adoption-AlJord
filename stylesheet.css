@@ -1,0 +1,76 @@
+
+.header { 
+    height: 75x;
+    width: 75%;
+    background-color: #004175;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 100px; 
+    margin-top: -40px;
+    border-bottom: 5px solid #89DEEF;
+    font-family: 'Open Sans';
+    font-size: large;
+
+}    
+h3{
+    color:rgb(0, 0, 0)
+
+}
+
+.opener {
+    height: 100px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Oswald';
+    font-weight: 200;
+    font-size: small;
+}
+
+.dog-grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: fuchsia;
+    max-width: 70%;
+    height: auto;
+    flex-flow:wrap;
+}
+
+.dogcard{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 30%;
+    height: auto;
+    flex-direction: column;
+    
+
+
+
+}
+ul{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+
+
+
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    font-family: 'Open Sans';
+    background-color: #89DEEF;
+    border-radius: 30px;
+    list-style-type: none;
+    margin: 3px;
+
+
+}
