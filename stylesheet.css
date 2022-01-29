@@ -1,6 +1,3 @@
-body{color: rgb(255, 255, 255);
-
-}
 
 .header { 
     height: 75x;
@@ -21,9 +18,6 @@ h3{
 
 }
 
-h2 {
-    color:rgb(0, 0, 0)
-}
 .opener {
     height: 100px;
     color: black;
@@ -31,69 +25,33 @@ h2 {
     font-family: 'Oswald';
     font-weight: 200;
     font-size: small;
-
-}
-.dog-pic {
-    display: flex;
-    justify-content: space-around;
-    align-content:flex-end;
-    flex-direction:row;
-    max-height:20%;
-    border-style: solid;
-    border-color: rgb(156, 144, 235);
-
-    color: black
 }
 
-.dog-grid {
+.dog-grid{
     display:flex;
-    flex-wrap:wrap;
-    align-content: center;
-    justify-content: center;
-    border-style:solid;
-    border-color:darkred
-
-}
-img{
-    display:flex;
-    max-width: 20%;
-    max-height: 20%;
+    flex-wrap: wrap;
+    justify-content: space-between;
     border-style: solid;
-    border-color:rgb(42, 255, 42)
+    border-color: fuchsia;
+
+
 }
 
+.dogcard{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 16%;
+    height: auto;
+    flex-direction: column;
+
+}
 ul{
     display: flex;
-    justify-content:center;
-    border-style: double;
-    border-color: cyan ;
-}
-
-li{
-    display:flex;
-    background-color: blue;
-    border-style: solid;
-    border-color: blue;
-    border-radius: 20px;
-    width:min-content;
-
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     
-
-
 }
-body{
-
+img{
+    max-width: 100%;
 }
-.first{
-    border-style: solid;
-    border-color: rgb(241, 73, 205);
-}
-.second{
-    border-color: deepskyblue;
-    border-style: solid;
-}
-.third{
-    border-color: blue;
-    border-style:solid;
-}
-
