@@ -33,25 +33,44 @@ h3{
     justify-content: space-between;
     border-style: solid;
     border-color: fuchsia;
-
-
+    max-width: 70%;
+    height: auto;
+    flex-flow:wrap;
 }
 
 .dogcard{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 16%;
+    max-width: 30%;
     height: auto;
     flex-direction: column;
+    
+
+
 
 }
 ul{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+
+
+
     
 }
+
 img{
     max-width: 100%;
+}
+
+li{
+    font-family: 'Open Sans';
+    background-color: #89DEEF;
+    border-radius: 30px;
+    list-style-type: none;
+    margin: 3px;
+
+
 }
