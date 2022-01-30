@@ -30,40 +30,42 @@ h3{
 .dog-grid{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border-style: solid;
     border-color: fuchsia;
     max-width: 70%;
     height: auto;
-    flex-flow:wrap;
+    min-width: 60%;
+    min-height: fit-content;
+    
 }
+
 
 .dogcard{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     max-width: 30%;
     height: auto;
     flex-direction: column;
     
 
-
-
 }
-ul{
+.dogcard img{  
+    max-width: 100%;
+    height: auto;
+}
+
+
+ul{     
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
-    
-
-
-
+    margin-top: -20px;
+    margin-left: -44px;
     
 }
 
-img{
-    max-width: 100%;
-}
+
+
 
 li{
     font-family: 'Open Sans';
@@ -71,6 +73,84 @@ li{
     border-radius: 30px;
     list-style-type: none;
     margin: 3px;
+    
+}
+
+
+body{
+    
+}
+
+
+
+
+
+
+
+
+.footerimg{   
+    display:flex;
+    justify-content:center;
+    width: 300px;
+    height: 300px;
 
 
 }
+
+
+
+
+
+#donate{
+    width: 300px;
+    height:300px;
+
+    background: 
+
+    linear-gradient(
+        rgba(#A6A9F0), 
+        rgba(#A6A9F0)
+    ),
+    url('starter_files/images/donate.jpg');
+
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    flex: 1 1 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
