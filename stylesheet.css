@@ -78,6 +78,9 @@ li{
 
 
 body{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     
 }
 
@@ -87,30 +90,63 @@ body{
 
 .footer{
     display: flex;
-    justify-content: space-evenly;
     border-style: solid;
     flex: 1 1 auto;
     flex-basis: auto;
-    
+    align-content: center;
+    flex-wrap: wrap;
 
 
 }
 
-h4{
-    font-size:x-large;
+.donate{
     align-self: center;
+    font-size: 40px;
+    position:absolute;
+    color:white;
+    text-align: center;
+    left:120px;
+}
+
+
+
+.Volunteer{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    align-self:center;
+    left:500px;
+    
+}
+
+.Our-Location{
+    font-size: 40px;
+    position:absolute;
+    color: white;
+    text-align: center;
+    align-self:center;
+    left:870px;
+
 
 }
+
+
 
 .footerimg{
     height: 300px;
     width: 300px;
     display: flex;
+    
 
     
 
 
 }
+
+
+
+
 
 
 
