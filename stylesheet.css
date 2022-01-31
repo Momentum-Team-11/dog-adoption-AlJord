@@ -11,28 +11,27 @@
     border-bottom: 5px solid #89DEEF;
     font-family: 'Open Sans';
     font-size: large;
+    color: white;
 
 }    
 h3{
-    color:rgb(0, 0, 0)
-
+    color:rgb(0, 0, 0);
+    font-size:30px;
 }
 
 .opener {
     height: 100px;
     color: black;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Oswald';
     font-weight: 200;
-    font-size: small;
+    
 }
 
 .dog-grid{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border-style: solid;
-    border-color: fuchsia;
     max-width: 70%;
     height: auto;
     min-width: 60%;
@@ -47,6 +46,7 @@ h3{
     max-width: 30%;
     height: auto;
     flex-direction: column;
+    font-family:'Oswald';
     
 
 }
@@ -90,11 +90,12 @@ body{
 
 .footer{
     display: flex;
-    border-style: solid;
     flex: 1 1 auto;
     flex-basis: auto;
     align-content: center;
     flex-wrap: wrap;
+    font-family: "Open Sans";
+    
 
 
 }
@@ -149,4 +150,16 @@ body{
 
 
 
+#donate {
 
+
+    background: 
+    
+    linear-gradient(
+    rgba(#A6A9F0), 
+    rgba(#A6A9F0)
+    ),
+    
+    url('/Users/alex/Projects/dog-adoption-AlJord/starter_files/images/donate.jpg');
+
+}
